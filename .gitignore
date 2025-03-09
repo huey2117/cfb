@@ -1,0 +1,49 @@
+# Ignore environment files
+.env
+**/.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and database dumps
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# Ignore node_modules for frontend
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Ignore build files
+dist/
+build/
+out/
+
+# Ignore Docker files
+.dockerignore
+docker-compose.override.yml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore lockfiles (optional)
+package-lock.json
+yarn.lock
+
